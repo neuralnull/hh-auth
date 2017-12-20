@@ -1,0 +1,15 @@
+{
+    "server": {
+        "port": 8080
+    },
+    "verification": {
+        "signer": "http://localhost:8000",
+        "publicKey": "public.pem",
+        "tokenTTL": 10
+    },
+    "slackAuth": {
+        "url": "https://slack.com/oauth/authorize",
+        "scope": "identity.basic",
+        "clientId": ""
+    }
+}

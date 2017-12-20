@@ -1,0 +1,30 @@
+{
+  "name": "hh-auth",
+  "version": "0.0.1",
+  "description": "hh-school lecture attendance accounting service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neuralnull/hh-auth"
+  },
+  "keywords": [
+    "hh-school"
+  ],
+  "author": "Vitaly Vasin <neural.null@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neuralnull/hh-auth/issues"
+  },
+  "homepage": "https://github.com/neuralnull/hh-auth",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "node-rsa": "^0.4.2",
+    "randomstring": "^1.1.5"
+  }
+}
