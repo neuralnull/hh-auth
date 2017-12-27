@@ -1,0 +1,8 @@
+body {
+  padding-top: 5rem;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
