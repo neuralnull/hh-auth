@@ -1,5 +1,6 @@
 {
     "server": {
+        "timeZoneOffset": 3,
         "port": 8080
     },
     "verification": {
@@ -8,8 +9,8 @@
         "tokenTTL": 10
     },
     "slackAuth": {
-        "url": "https://slack.com/oauth/authorize",
-        "scope": "identity.basic",
-        "clientId": ""
+        "authUrl": "https://slack.com/oauth/authorize",
+        "accessUrl": "https://slack.com/api/oauth.access",
+        "scope": "identity.basic,identity.email,identity.avatar"
     }
 }

@@ -1,3 +1,5 @@
 node_modules
 *.pem
 *.log
+personal-config.json
+db

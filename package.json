@@ -24,7 +24,10 @@
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.2",
+    "leveldown": "^2.1.1",
+    "levelup": "^2.0.1",
     "node-rsa": "^0.4.2",
-    "randomstring": "^1.1.5"
+    "randomstring": "^1.1.5",
+    "request": "^2.83.0"
   }
 }
